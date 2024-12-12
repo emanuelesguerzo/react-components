@@ -4,7 +4,9 @@ const AppMain = () => {
     return (
         <main>
             <div className="container">
-                <BlogCard />
+                <div className="col">
+                    <BlogCard />
+                </div>  
             </div>
         </main>
     )

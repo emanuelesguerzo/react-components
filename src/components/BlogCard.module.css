@@ -1,0 +1,25 @@
+.card {
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.image {
+    border-radius: 10px 10px 0 0;
+    display: block;
+    width: 100%;
+}
+
+.content {
+    padding: 15px;
+}
+
+.title {
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+}
+
+.description {
+    font-size: 0.9rem;
+    margin: 10px 0;
+    line-height: 1.3;
+}
