@@ -3,7 +3,9 @@ import BlogCard from "./BlogCard";
 const AppMain = () => {
     return (
         <main>
-            <BlogCard />
+            <div className="container">
+                <BlogCard />
+            </div>
         </main>
     )
 }

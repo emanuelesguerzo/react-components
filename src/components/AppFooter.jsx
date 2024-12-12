@@ -1,6 +1,6 @@
 const AppFooter = () => {
     return (
-        <footer>
+        <footer className="container">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis totam facilis officiis beatae sint dolorem voluptatum quos nesciunt doloribus enim assumenda reiciendis, voluptate aperiam autem perferendis debitis similique, ipsam culpa a!</p>
         </footer>
     )
