@@ -4,17 +4,13 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-img {
-    max-width: 100%;
-}
   
+/* LAYOUT */
 body {
     background-color: #e5e5e5;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* LAYOUT */
 .container {
     margin: 0 auto;
     width: 80%;
@@ -23,13 +19,24 @@ body {
 }
   
 .col {
-    width: 50%;
+    width: 35%;
     padding: 0.5rem;
+}
+
+main {
+    min-height: 80vh;
 }
 
 /* ////////////////// */
 /*   MEDIA  QUERYS    */
 /* ////////////////// */
+/* Laptop */
+@media screen and (max-width: 1024px) {
+    .col {
+        width: 50%;
+    }
+}
+
 /* Tablet */
 @media screen and (max-width: 768px) {
     .col {
