@@ -1,6 +1,8 @@
+import style from './PrimaryButton.module.css'
+
 const PrimaryButton = () => {
     return (
-        <button>Leggi di più</button>
+        <button className={style.mainBtn}>Leggi di più</button>
     )
 }
 
